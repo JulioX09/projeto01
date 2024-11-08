@@ -1,32 +1,127 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Entendendo as Mudanças Climáticas</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudanças Climáticas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        header img {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            object-fit: cover;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 0.5em;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 0.5em;
+            margin: 0 0.5em;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .section {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .content-with-images {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+        }
+        .content-with-images img {
+            width: 120px;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: white;
+            margin-top: 2em;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Entendendo as Mudanças Climáticas</h1>
-    <p>O impacto das mudanças climáticas no nosso planeta.</p>
-  </header>
-  
-  <section>
-    <h2>O que está acontecendo?</h2>
-    <p>As mudanças climáticas estão afetando o clima global, causando eventos climáticos extremos como secas e derretimento de geleiras.</p>
 
-    <!-- Imagem 1: Deserto -->
-    <img src="desert-279862_1280%20(1).jpg" alt="Imagem de deserto" style="width:100%;height:auto;">
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Entendendo as Mudanças Climáticas</h1>
+        <img src="https://images.unsplash.com/photo-1506748686213-255a9b56a1fa" alt="Imagem de planeta Terra" />
+        <p>O futuro do planeta está em nossas mãos</p>
+    </header>
 
-    <p>As regiões desérticas estão se expandindo devido ao aumento das temperaturas e à falta de chuvas, afetando a agricultura e os recursos hídricos.</p>
+    <!-- Navegação -->
+    <nav>
+        <a href="#o-que-e">O Que São Mudanças Climáticas?</a>
+        <a href="#impactos">Impactos no Planeta</a>
+        <a href="#acoes">O Que Podemos Fazer?</a>
+    </nav>
 
-    <!-- Imagem 2: Expedição no Ártico -->
-    <img src="expedition-5559244_1280%20(1).jpg" alt="Imagem de expedição no Ártico" style="width:100%;height:auto;">
-  </section>
+    <!-- Seção 1: O que é Mudança Climática -->
+    <section class="section" id="o-que-e">
+        <h2>O Que São Mudanças Climáticas?</h2>
+        <div class="content-with-images">
+            <img src="desert-279862_1280 (1).jpg" alt="Imagem de deserto">
+            <p>As mudanças climáticas referem-se a alterações significativas nas temperaturas e padrões climáticos ao longo do tempo. Embora essas mudanças possam ocorrer naturalmente, estudos mostram que as atividades humanas, como a queima de combustíveis fósseis e o desmatamento, têm acelerado esse processo.</p>
+        </div>
+        <p>O principal fator das mudanças climáticas é o aumento dos gases de efeito estufa na atmosfera, que retêm o calor e fazem a temperatura média global subir.</p>
+    </section>
 
-  <footer>
-    <p>&copy; 2024 - Direitos reservados ao aluno Julio César</p>
-  </footer>
+    <!-- Seção 2: Impactos no Planeta -->
+    <section class="section" id="impactos">
+        <h2>Impactos no Planeta</h2>
+        <div class="content-with-images">
+            <img src="expedition-5559244_1280 (1).jpg" alt="Imagem de expedição no Ártico">
+            <p>As mudanças climáticas têm impactos severos no meio ambiente e na vida de todos os seres vivos. Entre os efeitos observados estão:</p>
+        </div>
+        <ul>
+            <li><strong>Derretimento de geleiras</strong>: O aquecimento global está derretendo geleiras, aumentando o nível do mar e ameaçando as zonas costeiras.</li>
+            <li><strong>Secas e enchentes</strong>: Eventos climáticos extremos, como secas prolongadas e enchentes, estão se tornando mais frequentes e intensos.</li>
+            <li><strong>Extinção de espécies</strong>: A mudança de habitat e a perda de biodiversidade ameaçam várias espécies de plantas e animais.</li>
+        </ul>
+    </section>
+
+    <!-- Seção 3: O que podemos fazer? -->
+    <section class="section" id="acoes">
+        <h2>O Que Podemos Fazer?</h2>
+        <p>Embora as mudanças climáticas sejam um desafio global, todos podem ajudar a reduzir seu impacto. Algumas ações importantes incluem:</p>
+        <ul>
+            <li><strong>Reduzir o consumo de energia</strong>: Desligar luzes, usar aparelhos eficientes e investir em energia renovável pode reduzir emissões.</li>
+            <li><strong>Evitar desperdício de alimentos</strong>: Produzir alimentos consome muitos recursos; por isso, evitar o desperdício reduz a pegada de carbono.</li>
+            <li><strong>Plantar árvores</strong>: Árvores absorvem CO₂, contribuindo para a diminuição dos gases de efeito estufa na atmosfera.</li>
+        </ul>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 - Direitos reservados ao aluno Julio</p>
+    </footer>
+
 </body>
 </html>
